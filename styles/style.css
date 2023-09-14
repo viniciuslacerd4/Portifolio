@@ -119,27 +119,6 @@ body {
 
 .apresentacao__imagem {
     width: 50%;
-    /*transform: translateY(0px);
-    animation: float 5s ease-in-out infinite;
-}
-
-@keyframes float {
-    0% {
-        transform: translateY(0px);
-    }
-
-    50% {
-        transform: translateY(-30px);
-    }
-
-    100% {
-        transform: translateY(0px);
-    }
-}
-
-.apresentacao__imagem__about {
-    width: 40%;*/
-
 }
 
 .rodape {
@@ -238,7 +217,7 @@ body {
 }
 
 .projects__card__details__text {
-    color: var(--cor-secundaria);
+    color: var(--cor-quarta);
     font-family: var(--font-secundaria);
     font-size: 14px;
 }
@@ -248,12 +227,15 @@ body {
     font-weight: bold;
     font-family: var(--fonte-primaria);
     margin-bottom: 0.2rem;
+    transition: 0.4s ease-out;
 }
 /*Hover*/
 .projects__card:hover {
     border-color: var(--cor-terciaria);
     box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
-
+}
+.projects__card:hover .projects__card__details__title{
+    color: var(--cor-terciaria);
 }
 .projects__card:hover .projects__card__button {
     transform: translate(-50%, 50%);
@@ -370,10 +352,6 @@ body {
         width: 60%;
         border-radius: 1rem;
         border: none;
-        background-color: var(--cor-terciaria);
-        color: var(--cor-secundaria);
-        font-size: 1rem;
-        font-family: var(--fonte-primaria);
         padding: .5rem 1rem;
         position: absolute;
         left: 50%;
@@ -393,7 +371,7 @@ body {
     }
 
     .projects__card__details__text {
-        color: var(--cor-secundaria);
+        color: var(--cor-quarta);
         font-family: var(--font-secundaria);
         font-size: .8rem;
     }
@@ -403,7 +381,7 @@ body {
         font-size: 1em;
         font-weight: bold;
         font-family: var(--fonte-primaria);
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.1rem;
     }
 
     /*Hover*/
@@ -524,10 +502,6 @@ body {
         width: 60%;
         border-radius: 1rem;
         border: none;
-        background-color: var(--cor-terciaria);
-        color: var(--cor-secundaria);
-        font-size: 1rem;
-        font-family: var(--fonte-primaria);
         padding: .5rem 1rem;
         position: absolute;
         left: 50%;
@@ -547,7 +521,7 @@ body {
     }
 
     .projects__card__details__text {
-        color: var(--cor-secundaria);
+        color: var(--cor-quarta);
         font-family: var(--font-secundaria);
         font-size: .8rem;
     }
@@ -557,7 +531,7 @@ body {
         font-size: 1em;
         font-weight: bold;
         font-family: var(--fonte-primaria);
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.1rem;
     }
 
     /*Hover*/
