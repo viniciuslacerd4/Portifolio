@@ -112,6 +112,10 @@ body {
     align-items: center;
 }
 
+.apresentacao__links__navegacao__img{
+    width: 32px;
+}
+
 .apresentacao__links__navegacao:hover {
     transform: translate(-0.25rem, -0.25rem);
     box-shadow: 0.25rem 0.25rem var(--cor-hover);
