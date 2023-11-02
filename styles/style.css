@@ -83,7 +83,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     gap: 2rem;
 }
 
@@ -91,14 +91,13 @@ body {
     font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 1.5rem;
-
 }
 
 .apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    width: 50%;
+    width: 100%;
     text-align: center;
     border-radius: 1.5rem;
     font-size: 1.5rem;
@@ -270,7 +269,7 @@ body {
         justify-content: center;
         width: 30%;
         height: 100%;
-        font-size: 1.3rem;
+        font-size: 1.0rem;
     }
 
     .botao {
@@ -282,6 +281,11 @@ body {
         flex-direction: column-reverse;
         padding: 5%;
         gap: 1.75rem;
+        margin-bottom: 60px;
+    }
+
+    .apresentacao__imagem{
+        display: none;
     }
 
     .apresentacao__conteudo {
@@ -302,6 +306,7 @@ body {
         flex-direction: column-reverse;
         justify-content: center;
         padding: 5%;
+        margin-bottom: 80px;
     }
 
     .apresentacao__links__subtitulo {
@@ -330,10 +335,11 @@ body {
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
+        margin-bottom: 105px;
     }
 
     .projects__card {
-        width: 300px;
+        width: 299px;
         height: 200px;
         border-radius: 20px;
         background: var(--cor-primaria);
@@ -438,6 +444,11 @@ body {
         flex-direction: column-reverse;
         padding: 5%;
         gap: 2rem;
+        margin-bottom: 210px;
+    }
+
+    .apresentacao__imagem{
+        display: none;
     }
 
     .apresentacao__conteudo {
@@ -458,6 +469,7 @@ body {
         flex-direction: column-reverse;
         justify-content: center;
         padding: 5%;
+        margin-bottom: 130px;
     }
 
     .apresentacao__links__subtitulo {
@@ -490,7 +502,7 @@ body {
         border: 2px solid var(--cor-hover);
         transition: 0.5s ease-out;
         overflow: visible;
-        margin: 3em;
+        margin: 2.5em;
         margin-bottom: 25rem;
 
     }
