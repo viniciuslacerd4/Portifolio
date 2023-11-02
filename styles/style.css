@@ -335,11 +335,11 @@ body {
         justify-content: space-evenly;
         align-items: center;
         flex-direction: column;
-        margin-bottom: 105px;
+        margin-bottom: 123px;
     }
 
     .projects__card {
-        width: 299px;
+        width: 290px;
         height: 200px;
         border-radius: 20px;
         background: var(--cor-primaria);
