@@ -170,6 +170,7 @@ body {
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .projects__card {
@@ -492,6 +493,10 @@ body {
         justify-items: center
     }
 
+    .projects__linhas{ 
+        flex-wrap: wrap;
+    }
+
     .projects__card {
         width: 300px;
         height: 200px;
@@ -503,8 +508,6 @@ body {
         transition: 0.5s ease-out;
         overflow: visible;
         margin: 2.5em;
-        margin-bottom: 25rem;
-
     }
 
     .projects__card__details {
